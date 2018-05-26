@@ -1,0 +1,28 @@
+Field Name,Format,Length,Look Up,Description
+Major,character,6,,
+Minor,character,4,,
+TaxYr,number,4,,
+OmitYr,number,4,,
+ApprLandVal,number,9,,
+ApprImpsVal,number,9,,
+ApprImpIncr,number,9,,
+LandVal,number,9,,
+ImpsVal,number,9,,
+TaxValReason,character,2,,"CU = Current Use
+DP = Destroyed Property
+EX = Exempt from Taxes
+FS = Senior Citizen Value
+HI = Home Improvement
+HP = Historic Property
+MX = Multiple Reasons
+NP = Non-Profit Org.
+OP = Operating Property
+UI = Undivided Interest"
+TaxStat,character,1,,"O = Operating
+T = Taxable
+X = Exempt"
+LevyCode,number,4,,
+ChangeDate,character,19,,
+ChangeDocId,character,10,,
+Reason,character,50,47,
+SplitCode,character,1,,

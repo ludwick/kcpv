@@ -1,0 +1,2 @@
+class LevyRate < ApplicationRecord
+end

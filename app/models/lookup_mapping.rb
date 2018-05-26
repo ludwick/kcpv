@@ -1,0 +1,2 @@
+class LookupMapping < ApplicationRecord
+end

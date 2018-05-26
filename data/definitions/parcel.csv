@@ -1,0 +1,82 @@
+Field Name,Format,Length,Look Up
+Major,character,6,
+Minor,character,4,
+Property Name,character,80,
+Plat Name,character,50,
+Plat Lot,character,14,
+Plat Block,character,7,
+Range,number,2,
+Township,number,2,
+Section,number,2,
+Quarter Section,character,2,
+Property Type,character,1,
+Area,character,3,
+SubArea,character,3,
+SpecArea,character,3,
+SpecSubArea,character,3,
+District Name,character,80,
+Levy Code,character,4,
+Current Zoning,character,50,
+HBU As If Vacant,number,2,103
+HBU As Improved,number,1,104
+Present Use,number,3,102
+Lot Square Footage,number,9,
+Water System,number,1,56
+Sewer System,number,1,57
+Access,number,1,55
+Topography,number,1,59
+Street Surface,number,1,60
+Restrictive Size / Shape,number,1,90
+Inadequate Parking,number,1,92
+Percent Unusable,number,3,
+View: Mt Rainier,number,1,58
+View: Olympics,number,1,58
+View: Cascades,number,1,58
+View: Territorial,number,1,58
+View: Seattle Skyline,number,1,58
+View: Puget Sound,number,1,58
+View: Lake Washington,number,1,58
+View: Lake Sammamish,number,1,58
+View: Small Lake / River / Creek,number,1,58
+View: Other View,number,1,58
+Waterfront Location,number,2,50
+Waterfront Footage,number,5,
+Waterfront Bank,number,1,52
+Waterfront Poor Quality,number,1,51
+Waterfront Restricted Access,number,1,53
+Waterfront Access Rights,character,1,
+Waterfront Proximity Influence,character,1,
+Tideland / Shoreland,number,1,54
+Lot Depth Factor,number,3,
+Traffic Noise,number,1,95
+Airport Noise,number,2,
+Power Lines,character,1,
+Other Nuisances,character,1,
+Number Building Sites,number,2,
+Contamination,number,1,93
+DNR Lease,character,1,
+Adjacent Golf Fairway,character,1,
+Adjacent Greenbelt,character,1,
+Common Property,number,1,105
+Historic Site,number,1,67
+Current Use Designation,number,1,16
+Native Growth Protection Easement,character,1,
+Easements,character,1,
+Other Designation,character,1,
+Deed Restrictions,character,1,
+Development Rights Purchased,character,1,
+Coal Mine Hazard,character,1,
+Critical Drainage,character,1,
+Erosion Hazard,character,1,
+Landfill Buffer,character,1,
+Hundred Year Flood Plain,character,1,
+Seismic Hazard,character,1,
+Landslide Hazard,character,1,
+Steep Slope Hazard,character,1,
+Stream,character,1,
+Wetland,character,1,
+Species Of Concern,character,1,
+Sensitive Area Tract,character,1,
+Water Problems,character,1,
+Transportation Concurrency,character,1,
+Other Problems,character,1,

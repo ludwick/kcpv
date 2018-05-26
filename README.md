@@ -1,24 +1,30 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup
 
-Things you may want to cover:
+Install ruby 2.5.1. Install bundler. Bundle install.
 
-* Ruby version
+Also install 5.x version of mysql client (i.e. via homebrew).
 
-* System dependencies
+## Why
 
-* Configuration
+Why am I doing this? I want to understand property values, taxes, assessments and zoning.
 
-* Database creation
+### Questions?
 
-* Database initialization
+* What is the actual change in tax paid for different properties in the city of Seattle?
+* Does zoning type change the actual increases in tax paid? 
+* Does year of construction affect amount of tax paid? Is newer construction paying higher actual taxes?
+* How many parcels are owned by holding companies? Is their concentration of land wealth?
+* Is there skew in assessed land value between parcel types? What happens after sub-division for townhomes?
+*
 
-* How to run the test suite
+## Files
 
-* Services (job queues, cache servers, search engines, etc.)
+### data
 
-* Deployment instructions
+* definitions - these are csvs that express the field names and types for the source data files
 
-* ...
+### scripts
+
+These are various scripts to load up data from various sources and to get mysql running.

@@ -6,6 +6,13 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+def load_secrets
+  secrets_file = Pathname.new(__FILE__).join('../../SECRETS.yaml')
+  return {} unless secrets_file.exist?
+  YAML.parse(secrets_file.read).to_ruby
+end
+SECRETS = load_secrets
+
 module Kcpv
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
