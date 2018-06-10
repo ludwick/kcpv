@@ -1,5 +1,21 @@
 # README
 
+Table of Contents
+=================
+
+   * [README](#readme)
+      * [Setup](#setup)
+      * [Why](#why)
+         * [Goals](#goals)
+         * [Questions?](#questions)
+      * [Files and Data import](#files-and-data-import)
+         * [Files](#files)
+            * [data/definitions](#datadefinitions)
+            * [scripts](#scripts)
+         * [Data](#data)
+            * [Levy Rates](#levy-rates)
+      * [Contact &amp; Copyright](#contact--copyright)
+
 ## Setup
 
 Install ruby 2.5.1. Install bundler. Bundle install.
