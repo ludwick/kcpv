@@ -101,3 +101,10 @@ The sources for the various `.csv` files is hopefully obvious.
 
 Assessed rates of property taxes change year over year. I did some work to cleanup and extract rates for
 each levy code into csv files. You can find those in the [kc_levy_rates repo](https://github.com/ludwick/kc_levy_rates).
+
+## Contact & Copyright
+
+This was initially created by Rachael Ludwick, 2008, MIT license.
+
+Find me on [twitter](https://twitter.com/raludwick) or give me an email (see profile). Or I guess file
+a rull request. :)
