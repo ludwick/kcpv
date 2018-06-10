@@ -40,6 +40,10 @@ Why am I doing this? I want to understand property values, taxes, assessments an
 * Is there skew in assessed land value between parcel types? What happens after sub-division for townhomes?
 * How much of our recent skyrocketing property values not actually translated into increased tax revenues?
 
+## Usage
+
+Right now this is all done in rails console. See the [examples](https://github.com/ludwick/kcpv/blob/master/Examples.md).
+
 ## Files and Data import
 
 Most of the files and scripts and data are derived from data from the King County Assessor's office's
